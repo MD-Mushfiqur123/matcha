@@ -997,6 +997,7 @@ var knownAccountKeys = map[string]bool{
 	"pop3_server":            true,
 	"pop3_port":              true,
 	"catch_all":              true,
+	"pass_cmd":               true,
 }
 
 func warnUnknownConfigKeys(data []byte) {
